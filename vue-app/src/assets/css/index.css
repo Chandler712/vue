@@ -1,0 +1,98 @@
+body,
+div,
+span ul,
+li,
+a,
+img,
+h5 {
+    margin: 0;
+    padding: 0;
+}
+
+#app {
+    margin: 0 auto;
+    height: 100%;
+    width: 100%;
+    /* width: 30em; */
+    background-color: yellow;
+}
+
+.content {
+    height: auto;
+    width: 100%;
+    background: rgb(255, 255, 255);
+}
+
+.home {
+    width: 100%;
+    height: auto;
+    /* display: flex;
+    flex-flow: row wrap;
+    align-content: flex-start; */
+}
+
+
+/* .category{
+    margin-top: 10px;
+    text-align: center;
+    box-sizing: border-box;
+    flex: 0 0 25%;
+    height: 80px;
+          
+}
+.category span{
+    
+    display: block;
+} */
+
+.product-list {
+    /* display: flex; */
+    width: 100%;
+    height: auto;
+    margin-left: -1rem;
+}
+
+.lists {
+    width: 100%;
+    height: 100%;
+    background: #eee;
+}
+
+.product-list ul li {
+    display: block;
+    list-style: none;
+    float: left;
+    width: 49%;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin: 5px 3px 0px 0px;
+}
+
+.product-list ul li img {
+    width: 100%;
+}
+
+.product-list ul li label {
+    text-align: center;
+}
+
+.product-name {
+    margin: 5px;
+}
+
+.discount {
+    width: 100%;
+    color: red;
+    text-decoration: line-through;
+    text-align: center;
+    float: left;
+}
+
+.price-text {
+    margin: 0px auto;
+    width: 100%;
+    float: left;
+    font-weight: bold;
+    color: #ff9955;
+    text-align: center;
+}
